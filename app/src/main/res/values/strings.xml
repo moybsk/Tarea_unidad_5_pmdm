@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Tarea_unidad_5_pmdm</string>
+    <string name="gestor">Gestor de Loterías</string>
+    <string name="registro">REGISTRO</string>
+    <string name="loterias">LOTERIAS</string>
+    <string name="ajustes">AJUSTES</string>
+    <string name="sorteo">SORTEO</string>
+    <string name="hintNombre">Nombre</string>
+    <string name="hintEmail">Correo electronico</string>
+    <string name="hintEdad">Edad</string>
+    <string name="textValidar">Validar</string>
+    <string name="tostadaValidarMenor">Vuelve cuando seas mayor</string>
+    <string name="tostadaValidarMayor">¡Registrado!</string>
+    <string name="textVolver">Volver</string>
+    <string name="loteriaNacional">Lotería Nacional</string>
+    <string name="bonoLoto">BonoLoto</string>
+    <string name="euromillones">Euromillones</string>
+    <string name="gordo">El gordo de la primitiva</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="dinero">Dinero a Apostar</string>
+    <string name="combinacion">Combinación</string>
+    <string name="guardar">Guardar</string>
+
+</resources>

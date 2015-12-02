@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center">
+
+        <TableRow android:orientation="vertical">
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gestor"
+            android:id="@+id/textView"
+            android:autoText="false"
+            android:textSize="40dp"
+            android:textColor="#ff0000"
+                android:layout_span="2"
+                android:gravity="center" />
+        </TableRow>
+        <TableRow>
+        <Button
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="@string/registro"
+            android:textSize="40dp"
+            android:id="@+id/registro"/>
+        <Button
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="@string/loterias"
+            android:textSize="40dp"
+            android:id="@+id/loterias"/>
+        </TableRow>
+
+        <TableRow>
+        <Button
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ajustes"
+            android:textSize="40dp"
+            android:id="@+id/ajustes"/>
+        <Button
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="@string/sorteo"
+            android:textSize="40dp"
+            android:id="@+id/sorteo"/>
+        </TableRow>
+    </TableLayout>
+

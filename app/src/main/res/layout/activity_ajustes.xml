@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TabHost
+        android:id="@android:id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <GridLayout
+                    android:id="@+id/tabDinero"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dinero"
+                        android:layout_gravity="left|right"
+                        android:textIsSelectable="true"
+                        android:textSize="@dimen/titleText"
+                        android:textColor="#ff0000"
+                        android:gravity="center_horizontal"
+                        android:layout_columnSpan="2" />
+
+                    <Spinner
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:id="@+id/selectorDinero"
+                        android:layout_row="1"
+                        android:layout_column="0"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_columnSpan="2" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_row="2"
+                        android:layout_column="0"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal">
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/guardar"
+                            android:id="@+id/guardar"
+                            />
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/textVolver"
+                            android:id="@+id/volver"
+                            />
+                    </LinearLayout>
+
+
+
+                </GridLayout>
+
+                <GridLayout
+                    android:id="@+id/tabCombinacion"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/combinacion"
+                        android:layout_gravity="left|right"
+                        android:textIsSelectable="true"
+                        android:textSize="@dimen/titleText"
+                        android:textColor="#ff0000"
+                        android:gravity="center_horizontal"
+                        android:layout_columnSpan="2" />
+
+
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_row="2"
+                        android:layout_column="0"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal">
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/guardar"
+                            android:id="@+id/guardar2"
+                            />
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/textVolver"
+                            android:id="@+id/volver2"
+                            />
+                    </LinearLayout>
+                </GridLayout>
+
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+</LinearLayout>
